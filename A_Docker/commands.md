@@ -21,7 +21,7 @@ docker <command> (options)
 docker <command> <sub-command> (options)
 ```
 
-### 3. All commands in Docker
+### 4. All commands in Docker
 > Use this command if you need to get a list of commands available to you or if you are in search of an example. This isn't the full list of commands, as now Docker has created _management_ commands. 
 ```s
 docker 

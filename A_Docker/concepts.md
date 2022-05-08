@@ -8,3 +8,11 @@
 **Container**
 > A container is an instance of the _Image_ running as a process. 
 
+---
+
+_**You can have many containers running of the same image.**_
+
+---
+
+-----
+
