@@ -59,7 +59,7 @@ docker run hello-world
 
 3. The process in a picture
 
-<p align="center">
+<p align = "center">
     <img width="400" alt="image" src="https://user-images.githubusercontent.com/8760590/167439293-ac54d8d9-c28f-41b1-89a6-28ace31e9a57.png">
 </p>
 
@@ -86,19 +86,24 @@ ps aux | grep mongo
 4. Now we can see that this is just a process running on our host.
 
 5. Picture to describe this process. 
-<p align-"center">
-    <img width="600" alt="image" src="https://user-images.githubusercontent.com/8760590/167451575-df2ccf0a-189e-4503-9374-cd5ff77a8602.png">
+
+_Without Containers_
+<p align =  "center">
+    <img width="400" alt="image" src="https://user-images.githubusercontent.com/8760590/167444201-f1af05a0-d3f2-4eeb-9d10-60191d7609b6.png">
+</p>
+
+_With a Container_
+<p align = "center">
+    <img width="400" alt="image" src="https://user-images.githubusercontent.com/8760590/167451575-df2ccf0a-189e-4503-9374-cd5ff77a8602.png">
 </p>
 ---
 
 ## Can I run Docker on Windows? 
-> 
+> Not all Operating Systems and Kernals are buitl the same. Even amongst Linux distributions the operating system functions are different. So this begs the question, can we run containers on Windows, when all the documentation keeps calling out the need for Linux?
 
-<p align="center">
-    <img width="919" alt="image" src="https://user-images.githubusercontent.com/8760590/167444201-f1af05a0-d3f2-4eeb-9d10-60191d7609b6.png">
-</p>
-
+_Take one example of Kernal / Operating System differences ---> _Namespacing_ and _cGroup_ capability...
 <p>
     <img width="400" alt="image" src="https://user-images.githubusercontent.com/8760590/167446261-459958c3-71eb-44f5-a2c0-78f6f917435d.png">
 </p>
+
 
