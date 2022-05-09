@@ -63,6 +63,11 @@ docker run hello-world
     <img width="400" alt="image" src="https://user-images.githubusercontent.com/8760590/167439293-ac54d8d9-c28f-41b1-89a6-28ace31e9a57.png">
 </p>
 
+1. In order to communicate with the `Docker Daemon` you need to have a client installation that will communicate with the Daemon. This is `Docker Desktop`
+2. With the client installed, commands can be initiated via CLI. When you initiate a `docker run <container image>` command, the first thing that will happen is a query to the local image cache will be made to identify whether the image is available for use. 
+3. If the image is not available, the client will make a call to the `Docker Daemon` requesting the image. The image will be sourced from `Docker Hub`, which is a public repository of docker images. 
+4. The image will be returned to the client and stored locally for future use. 
+5. The docker container build process will continue and a container will be instantiated. 
 
 ## What is a container actually? 
 > `docker` is not a "VM" comparable. Docker is simply a process running on the underlying Linux host. 
