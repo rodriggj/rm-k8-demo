@@ -1,11 +1,5 @@
 # Example 1 - Run an `nginx` container
 
-## What is `nginx`? 
-
-## Where can I find the `nginx` image? 
-
-## How do I run the `nginx` container? 
-
 1. Open a terminal window and run the following command
 
 ```s
@@ -43,4 +37,3 @@ docker container run --publish 8888:80 --detach nginx
 ```s
 docker logs <container Id>
 ```
-
