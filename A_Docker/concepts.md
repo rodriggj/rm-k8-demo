@@ -108,7 +108,7 @@ _With a Container_
 
 Take one example of Kernal / Operating System differences ---> _Namespacing_ and _cGroup_ capability...
 
-<p>
+<p align="center">
     <img width="400" alt="image" src="https://user-images.githubusercontent.com/8760590/167446261-459958c3-71eb-44f5-a2c0-78f6f917435d.png">
 </p>
 -----
