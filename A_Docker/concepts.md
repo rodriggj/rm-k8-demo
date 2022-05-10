@@ -77,7 +77,7 @@ Example:
 ```s
 docker run --name mongo -d mongo
 ```
-
+z
 2. Now run the following command to validate that there is a process running for the container you just created
 ```s
 docker top mongo
@@ -106,9 +106,10 @@ _With a Container_
 ## Can I run Docker on Windows? 
 > Not all Operating Systems and Kernals are buitl the same. Even amongst Linux distributions the operating system functions are different. So this begs the question, can we run containers on Windows, when all the documentation keeps calling out the need for Linux?
 
-_Take one example of Kernal / Operating System differences ---> _Namespacing_ and _cGroup_ capability...
+Take one example of Kernal / Operating System differences ---> _Namespacing_ and _cGroup_ capability...
+
 <p>
     <img width="400" alt="image" src="https://user-images.githubusercontent.com/8760590/167446261-459958c3-71eb-44f5-a2c0-78f6f917435d.png">
 </p>
-
+-----
 
